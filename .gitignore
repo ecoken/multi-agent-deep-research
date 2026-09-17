@@ -5,6 +5,9 @@
 !.env.example
 *.local
 *.bak
+*.bak-*
+*.orig
+*.old
 
 # Python
 __pycache__/
