@@ -1,0 +1,33 @@
+# Secrets & local config
+# .env.* 覆盖 .env.bak / .env.prod 这类变体，再用 ! 放行模板文件
+.env
+.env.*
+!.env.example
+*.local
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs & runtime output
+logs/
+*.log
+output/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
