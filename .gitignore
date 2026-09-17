@@ -34,3 +34,8 @@ output/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 运行时会话产物（每次调用生成一个 session_xxx 目录，不入版本库）
+updated/
+output/
+tools/test_session_*/
