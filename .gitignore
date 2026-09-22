@@ -39,3 +39,6 @@ desktop.ini
 updated/
 output/
 tools/test_session_*/
+
+# 评测自动生成的时间戳报告（基线已固化为 evaluation/baseline_*.json）
+evaluation/reports/
